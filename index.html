@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aleksey Usatov — Senior Backend Engineer</title>
+  <meta name="description" content="Aleksey Usatov — senior backend engineer with 8+ years in .NET. Microservices, event-driven architectures, Kafka, PostgreSQL. Tbilisi, Georgia.">
+  <link rel="canonical" href="https://usatov.com/">
+  <meta property="og:title" content="Aleksey Usatov — Senior Backend Engineer">
+  <meta property="og:description" content="Senior backend engineer with 8+ years in .NET. Microservices, event-driven architectures, Kafka, PostgreSQL.">
+  <meta property="og:url" content="https://usatov.com/">
+  <meta property="og:type" content="profile">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header class="page-header">
+      <h1>Aleksey Usatov</h1>
+      <p class="subtitle">Senior Backend Engineer · Microservices · Clean Architecture</p>
+      <p class="location">Tbilisi, Georgia</p>
+      <ul class="contacts">
+        <li><a href="mailto:me@usatov.com" rel="me">me@usatov.com</a></li>
+        <li><a href="https://t.me/tuscen" rel="me">Telegram</a></li>
+        <li><a href="https://github.com/tuscen" rel="me">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/tuscen" rel="me">LinkedIn</a></li>
+      </ul>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>Senior backend engineer with 8+ years of experience building and evolving high-load systems in .NET. Most of my work has been in marketplaces, fintech, and industrial systems — domains where reliability and clear architecture are essential. I design systems that stay understandable and predictable even as they grow in complexity.</p>
+      <p>I specialize in event-driven architectures, microservice ecosystems, and data-centric solutions built on Kafka and PostgreSQL. I take systems from analysis and architecture through implementation and operation; I have led migrations from legacy monoliths to microservices and built CI/CD and observability practices.</p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <dl class="skills">
+        <dt>Languages &amp; Platforms</dt>
+        <dd>
+          <span class="tag">C#</span>
+          <span class="tag">.NET / .NET Core</span>
+          <span class="tag">ASP.NET Core</span>
+          <span class="tag">EF Core</span>
+        </dd>
+
+        <dt>Data Stores</dt>
+        <dd>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Redis</span>
+          <span class="tag">MS SQL</span>
+        </dd>
+
+        <dt>Messaging &amp; Integration</dt>
+        <dd>
+          <span class="tag">Apache Kafka</span>
+          <span class="tag">RabbitMQ / MassTransit</span>
+          <span class="tag">gRPC</span>
+          <span class="tag">REST</span>
+          <span class="tag">OpenAPI</span>
+        </dd>
+
+        <dt>Architecture</dt>
+        <dd>
+          <span class="tag">Microservices</span>
+          <span class="tag">event-driven</span>
+          <span class="tag">Clean Architecture</span>
+          <span class="tag">DDD</span>
+          <span class="tag">transactional outbox</span>
+          <span class="tag">distributed tracing</span>
+        </dd>
+
+        <dt>DevOps &amp; Infrastructure</dt>
+        <dd>
+          <span class="tag">Docker</span>
+          <span class="tag">Kubernetes</span>
+          <span class="tag">GitLab CI/CD</span>
+          <span class="tag">GitHub Actions</span>
+          <span class="tag">Ansible</span>
+          <span class="tag">Linux</span>
+        </dd>
+
+        <dt>Observability</dt>
+        <dd>
+          <span class="tag">OpenTelemetry</span>
+          <span class="tag">Grafana</span>
+          <span class="tag">Prometheus</span>
+          <span class="tag">InfluxDB</span>
+        </dd>
+
+        <dt>Other</dt>
+        <dd>
+          <span class="tag">S3</span>
+          <span class="tag">Hangfire</span>
+          <span class="tag">SEMI SECS/GEM</span>
+          <span class="tag">Telegram Bot API</span>
+          <span class="tag">Electron</span>
+          <span class="tag">React</span>
+          <span class="tag">TypeScript</span>
+        </dd>
+
+        <dt>Languages</dt>
+        <dd>
+          <span class="tag">English (Professional Working)</span>
+          <span class="tag">Russian (Native)</span>
+        </dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <article class="job">
+        <h3><strong>Teez</strong> · Senior Software Developer</h3>
+        <p class="meta">January 2025 — Present · Tbilisi</p>
+        <ul>
+          <li>Core member of the company-wide Architecture Committee — key reviewer and technical advisor on RFCs and ADRs across the engineering organization.</li>
+          <li>Shaping architectural strategy for B2C backend services powering storefront, cart, checkout, payment, and order flows of a fast-growing marketplace.</li>
+          <li>Driving migration from a modular monolith to event-driven microservices: defining service boundaries, API contracts, messaging patterns, and data ownership.</li>
+          <li>Redesigned asynchronous database-to-database sync via Kafka: batched messages with large-batch payloads (tens of thousands of records) offloaded to S3 as file manifests, batch versioning to prevent race conditions — multi-fold reduction in integration load.</li>
+          <li>Built transactional outbox as a company-wide shared library — eliminated chronic message-loss issues when publishing to Kafka.</li>
+          <li>Rolled out distributed tracing and shared Kafka consumer abstractions as standard libraries adopted across multiple teams — significantly accelerated and simplified production incident investigation.</li>
+          <li>Designing and implementing customer-facing capabilities in mobile and web APIs with a focus on reliability, consistency, and operational maintainability.</li>
+          <li>Establishing integration and end-to-end testing practices for critical purchasing, payment, and order flows.</li>
+          <li>Partnering with product, analysts, and cross-functional teams to translate business requirements into resilient technical solutions.</li>
+          <li>Investigating production incidents, improving observability, and eliminating recurring issues in payment and order flows.</li>
+          <li>Participating in senior-level hiring, including system design and architecture interviews for Head of Engineering and Team Lead candidates.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3><strong>Payler</strong> · Backend Developer</h3>
+        <p class="meta">April 2024 — November 2024 · Tbilisi</p>
+        <ul>
+          <li>Integrated payment provider Clear Junction into the fund transfer orchestration service under a contractual constraint of one IBAN per client (shared across currencies), with parallel allocation requests coming from the Ledger Service.</li>
+          <li>Designed a coordination mechanism using an in-flight record of active allocations: the first request triggers IBAN issuance with CJ, subsequent parallel requests wait and reuse the result. The solution works around the provider's out-of-order responses to duplicates — the "already done" response could arrive before the response containing the actual data.</li>
+          <li>Implemented business processes for monetary transfers under various regulatory requirements.</li>
+          <li>Bug-fixed existing services; developed unit and integration tests.</li>
+          <li>Participated in architectural discussions on service evolution and inter-service communication.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3><strong>Mattson Technology</strong> · Software Engineer</h3>
+        <p class="meta">April 2023 — April 2024 · Tbilisi</p>
+        <ul>
+          <li>ASP.NET Core service running on Linux: a middleware layer between end-user UIs / factory management software (MES) on one side and a C++ machine-control kernel (developed by another team) on the other; communicating with the kernel via gRPC.</li>
+          <li>Implemented end-user UI and industrial protocols exposed to factory software, through which fleets of lithography and etching machines were managed.</li>
+          <li>Worked with SEMI SECS/GEM and proprietary protocols under NDA from Samsung; analyzed proprietary documentation from equipment manufacturers.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3><strong>MedIndex</strong> · Full Stack Software Developer</h3>
+        <p class="meta">March 2021 — February 2023 · Saint Petersburg</p>
+        <ul>
+          <li>Modernized B2B services: migrated legacy ASP.NET applications to .NET Core with REST APIs.</li>
+          <li>Full-stack development of B2B applications: client-side on TypeScript, Webpack, Kendo UI, jQuery.</li>
+          <li>Automated deployments via GitLab CI/CD and Kubernetes — reduced deployment time from hours to minutes.</li>
+          <li>Led development of a courier delivery service, managing a small cross-functional team.</li>
+          <li>Built CI/CD pipelines for legacy systems: improved release reliability and freed up developer time.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3><strong>Yalg Inc.</strong> · Full Stack Software Developer</h3>
+        <p class="meta">April 2020 — April 2021 · Saint Petersburg</p>
+        <ul>
+          <li>Designed event-based architecture using RabbitMQ and MassTransit for warehouse management and automated trading decision systems.</li>
+          <li>Rewrote backend systems from WCF to ASP.NET Core 3.1 with REST APIs.</li>
+          <li>Maintained legacy WPF client; rewrote client application using Electron, React, and TypeScript.</li>
+          <li>Set up metrics via Grafana and InfluxDB.</li>
+          <li>Designed CI/CD pipeline for automatic builds of the backend and both clients using the Nuke build library.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Earlier Experience</h2>
+
+      <article class="job">
+        <h3><strong>Self-Employed</strong> · Software Developer</h3>
+        <p class="meta">2017 — 2020 · Saint Petersburg</p>
+        <ul>
+          <li>Developed a Telegram bot for small retail with a complex admin system.</li>
+          <li>Built a custom framework for Telegram bot development in C#: menu navigation, role-based authorization, group moderation, broadcast respecting Bot API rate limits.</li>
+          <li>Active contributions to the open-source <a href="https://github.com/TelegramBots/Telegram.Bot">Telegram.Bot library</a>.</li>
+          <li>Stack: .NET Core 1.x — 3.1, ASP.NET Core, EF Core, Hangfire, PostgreSQL, Redis, Ansible, Linux.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+
+      <article class="job">
+        <h3><strong>Herzen State Pedagogical University of Russia</strong> · BSc in Software Engineering, with honors</h3>
+        <p class="meta">2011 — 2015 · Saint Petersburg</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
