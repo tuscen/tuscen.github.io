@@ -1,4 +1,5 @@
 :root {
+  --bg: #ffffff;
   --text: #18181b;
   --muted: #71717a;
   --link: #2563eb;
@@ -7,7 +8,25 @@
   --card-border: #e4e4e7;
   --tag-bg: #f4f4f5;
   --tag-border: #e4e4e7;
+  --hover-bg: #e9e9eb;
+  --hover-border: #d4d4d8;
   --max-width: 760px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #09090b;
+    --text: #fafafa;
+    --muted: #a1a1aa;
+    --link: #60a5fa;
+    --rule: #27272a;
+    --card-bg: #18181b;
+    --card-border: #27272a;
+    --tag-bg: #27272a;
+    --tag-border: #3f3f46;
+    --hover-bg: #3f3f46;
+    --hover-border: #52525b;
+  }
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -20,7 +39,7 @@ body {
   font-size: 16px;
   line-height: 1.55;
   color: var(--text);
-  background: #fff;
+  background: var(--bg);
   font-feature-settings: "cv11", "ss01";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -108,8 +127,8 @@ h3 strong { font-weight: 600; }
 }
 
 .contacts a:hover {
-  background: #e9e9eb;
-  border-color: #d4d4d8;
+  background: var(--hover-bg);
+  border-color: var(--hover-border);
 }
 
 /* Skills */
