@@ -7,10 +7,10 @@
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)">
   <title>Aleksey Usatov — Senior Backend Engineer</title>
-  <meta name="description" content="Aleksey Usatov — senior backend engineer with 8+ years in .NET. Microservices, event-driven architectures, Kafka, PostgreSQL. Tbilisi, Georgia.">
+  <meta name="description" content="Aleksey Usatov — senior backend engineer with 8+ years in .NET. High-load distributed systems, microservices, event-driven architectures, Kafka, PostgreSQL. Tbilisi, Georgia.">
   <link rel="canonical" href="https://usatov.com/">
   <meta property="og:title" content="Aleksey Usatov — Senior Backend Engineer">
-  <meta property="og:description" content="Senior backend engineer with 8+ years in .NET. Microservices, event-driven architectures, Kafka, PostgreSQL.">
+  <meta property="og:description" content="Senior backend engineer with 8+ years in .NET. High-load distributed systems, microservices, event-driven architectures, Kafka, PostgreSQL.">
   <meta property="og:url" content="https://usatov.com/">
   <meta property="og:type" content="profile">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
   <main>
     <header class="page-header">
       <h1>Aleksey Usatov</h1>
-      <p class="subtitle">Senior Backend Engineer · Microservices · Clean Architecture</p>
+      <p class="subtitle">Senior Backend Engineer · Distributed Systems · Microservices</p>
       <p class="location">Tbilisi, Georgia</p>
       <ul class="contacts">
         <li><a href="mailto:me@usatov.com" rel="me">me@usatov.com</a></li>
@@ -34,8 +34,8 @@
 
     <section>
       <h2>About</h2>
-      <p>Senior backend engineer with 8+ years of experience building and evolving high-load systems in .NET. Most of my work has been in marketplaces, fintech, and industrial systems — domains where reliability and clear architecture are essential. I design systems that stay understandable and predictable even as they grow in complexity.</p>
-      <p>I specialize in event-driven architectures, microservice ecosystems, and data-centric solutions built on Kafka and PostgreSQL. I take systems from analysis and architecture through implementation and operation; I have led migrations from legacy monoliths to microservices and built CI/CD and observability practices.</p>
+      <p>Senior backend engineer with 8+ years of experience designing and operating high-load distributed systems in .NET. My work has spanned consumer marketplaces, fintech, and industrial systems — domains where reliability, clear architecture, and direct impact on business metrics are essential. I take hands-on ownership of solutions end-to-end, from understanding business requirements through architecture, implementation, and production operation.</p>
+      <p>I specialize in event-driven microservice architectures with deep practical experience in Kafka and PostgreSQL. I have led migrations from legacy monoliths to microservices, designed company-wide standards for asynchronous messaging and observability, and made architectural decisions that directly improved reliability of revenue-critical flows.</p>
     </section>
 
     <section>
@@ -112,19 +112,19 @@
       <h2>Experience</h2>
 
       <article class="job">
-        <h3><strong>Teez</strong> · Senior Software Developer</h3>
+        <h3><strong>Teez</strong> · Senior Software Developer / Backend Engineer</h3>
         <p class="meta">January 2025 — Present · Tbilisi</p>
         <ul>
           <li>Core member of the company-wide Architecture Committee — key reviewer and technical advisor on RFCs and ADRs across the engineering organization.</li>
-          <li>Shaping architectural strategy for B2C backend services powering storefront, cart, checkout, payment, and order flows of a fast-growing marketplace.</li>
+          <li>Shaping architectural strategy for B2C backend services powering storefront, cart, checkout, payment, and order flows of a fast-growing consumer marketplace.</li>
           <li>Driving migration from a modular monolith to event-driven microservices: defining service boundaries, API contracts, messaging patterns, and data ownership.</li>
-          <li>Redesigned asynchronous database-to-database sync via Kafka: batched messages with large-batch payloads (tens of thousands of records) offloaded to S3 as file manifests, batch versioning to prevent race conditions — multi-fold reduction in integration load.</li>
-          <li>Built transactional outbox as a company-wide shared library — eliminated chronic message-loss issues when publishing to Kafka.</li>
-          <li>Rolled out distributed tracing and shared Kafka consumer abstractions as standard libraries adopted across multiple teams — significantly accelerated and simplified production incident investigation.</li>
-          <li>Designing and implementing customer-facing capabilities in mobile and web APIs with a focus on reliability, consistency, and operational maintainability.</li>
+          <li>Redesigned asynchronous database-to-database sync via Kafka: batched messages with large payloads (tens of thousands of records) offloaded to S3 as file manifests, batch versioning to prevent race conditions — multi-fold reduction in integration load.</li>
+          <li>Built transactional outbox as a company-wide shared library — eliminated chronic message-loss issues when publishing to Kafka, directly improving reliability of order and payment flows.</li>
+          <li>Rolled out distributed tracing and shared messaging consumer abstractions as standard libraries adopted across multiple teams — significantly accelerated production incident investigation.</li>
+          <li>Designing customer-facing capabilities in mobile and web APIs with a focus on reliability, consistency, and operational maintainability.</li>
           <li>Establishing integration and end-to-end testing practices for critical purchasing, payment, and order flows.</li>
-          <li>Partnering with product, analysts, and cross-functional teams to translate business requirements into resilient technical solutions.</li>
-          <li>Investigating production incidents, improving observability, and eliminating recurring issues in payment and order flows.</li>
+          <li>Partnering with product, analysts, and cross-functional teams to translate business requirements into resilient technical solutions, balancing incremental delivery with long-term architectural stability.</li>
+          <li>Investigating production incidents, improving observability, and eliminating recurring issues in revenue-critical flows.</li>
           <li>Participating in senior-level hiring, including system design and architecture interviews for Head of Engineering and Team Lead candidates.</li>
         </ul>
       </article>
@@ -174,10 +174,16 @@
           <li>Designed CI/CD pipeline for automatic builds of the backend and both clients using the Nuke build library.</li>
         </ul>
       </article>
-    </section>
 
-    <section>
-      <h2>Earlier Experience</h2>
+      <article class="job">
+        <h3><strong>Telegram.Bot (Open Source)</strong> · Core Contributor and Maintainer</h3>
+        <p class="meta">2018 — 2024 · <a href="https://github.com/TelegramBots/Telegram.Bot">github.com/TelegramBots/Telegram.Bot</a></p>
+        <ul>
+          <li>Core contributor and then primary maintainer of the leading .NET library for Telegram Bot API; rebuilt the library's internals and designed its CI/CD.</li>
+          <li>Under my stewardship the library reached 3.6k+ GitHub stars and 8.7M+ NuGet downloads (100k+ daily) — industry-standard library used by thousands of teams.</li>
+          <li>Stepped back from day-to-day maintenance in 2024; retain owner rights on the GitHub organization.</li>
+        </ul>
+      </article>
 
       <article class="job">
         <h3><strong>Self-Employed</strong> · Software Developer</h3>
@@ -185,7 +191,6 @@
         <ul>
           <li>Developed a Telegram bot for small retail with a complex admin system.</li>
           <li>Built a custom framework for Telegram bot development in C#: menu navigation, role-based authorization, group moderation, broadcast respecting Bot API rate limits.</li>
-          <li>Active contributions to the open-source <a href="https://github.com/TelegramBots/Telegram.Bot">Telegram.Bot library</a>.</li>
           <li>Stack: .NET Core 1.x — 3.1, ASP.NET Core, EF Core, Hangfire, PostgreSQL, Redis, Ansible, Linux.</li>
         </ul>
       </article>
